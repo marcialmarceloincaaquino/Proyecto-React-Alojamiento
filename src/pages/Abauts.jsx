@@ -10,7 +10,7 @@ const Abauts = () => {
         <Card.Title>******************************************************************************************</Card.Title>
         <Card.Text>
         El Alojamiento “Los Andes”, inicio sus actividades el el 14 de Agosto de 2005,
-        con Numero de Nit Nº 620970018,  como "Centro de Hospedaje Privado" que ofrece un servicio
+        con Numero de Nit Nº 620970018,  como “Centro de Hospedaje Privado” que ofrece un servicio
         publico a su clientela, tanto para los clientes del interior del país como del exterior.
         Su funcionamiento es las 24 horas, teniendo un servicio de habitaciones simples, dobles y
         Matrimoniales y con ducha y wifi.

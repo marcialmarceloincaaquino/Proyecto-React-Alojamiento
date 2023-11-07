@@ -3,10 +3,10 @@ import Navbar from './Componentes/Navegar';
 
 import Home from './pages/Home';
 import Abauts from './pages/Abauts';
+import Familiar from './pages/familiar';
 import Contact from './pages/Contact';
-import Galery from './pages/Galery';
-import Room from './pages/Room';
-
+import Matrimonial from './pages/matrimonial';
+import Simple from './pages/simple';
 
 import './App.css'
 
@@ -19,9 +19,9 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<Abauts />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/galery" element={<Galery />} />
-        <Route path="/room" element={<Room />} />
-      
+        <Route path="Familiar" element={<Familiar />} />
+        <Route path="Matrimonial" element={<Matrimonial />} />
+        <Route path="simple" element={<Simple />} />
     </Routes>
     </>
     

@@ -3,6 +3,7 @@ import Image from 'react-bootstrap/Image';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
+import { Model } from '../Componentes/Cubo';
 
 
 const Home = () => {
@@ -10,6 +11,10 @@ const Home = () => {
                 <div>
             <Container>
       <Row>
+      
+        <Col> test22<Model /></Col>
+
+        
         <Col><Image src="/src/assets/imagenes/banner1.jpg" rounded width={500} /></Col>
         <Col><Image src="/src/assets/imagenes/banner2.jpg" rounded width={500} /></Col>
       </Row>
