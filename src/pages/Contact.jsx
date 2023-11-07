@@ -16,21 +16,19 @@ const Contact = () => {
       <Row>
         <Col><Form>
       <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-        <Form.Control type="email" placeholder="Nombre"/>
-      </Form.Group>
-
-            <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-        <Form.Control type="email" placeholder="Correo"/>
+        <Form.Control type="email" placeholder="name@example.com" />
       </Form.Group>
       <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-        <Form.Control as="textarea" rows="3" placeholder="Mensaje"/>
+        <Form.Label>Example textarea</Form.Label>
+        <Form.Control as="textarea" rows={3} />
       </Form.Group>
     </Form></Col>
-        <Col>    eioweioweweio</Col>
+        <Col>2 of 2</Col>
       </Row>
       <Row>
-        <Col><Button variant="primary">Enviar</Button>{' '}</Col>
+        <Col>1 of 3</Col>
         <Col>2 of 3</Col>
+        <Col>3 of 3</Col>
       </Row>
     </Container>
     );
