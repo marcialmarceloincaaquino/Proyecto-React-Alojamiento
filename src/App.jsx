@@ -3,10 +3,10 @@ import Navbar from './Componentes/Navegar';
 
 import Home from './pages/Home';
 import Abauts from './pages/Abauts';
-import Familiar from './pages/familiar';
+import Familiar from './pages/Familiar';
 import Contact from './pages/Contact';
-import Matrimonial from './pages/matrimonial';
-import Simple from './pages/simple';
+import Matrimonial from './pages/Matrimonial';
+import Simple from './pages/Simple';
 
 import './App.css'
 
