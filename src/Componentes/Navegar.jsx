@@ -2,13 +2,14 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import bienvenida from '/src/assets/imagenes/textobienvenida3.png';
 
 import Image from 'react-bootstrap/Image';
 
 function Navegar () {
     return (
         <div>
-            <Image src="/src/assets/imagenes/textobienvenida3.png" fluid width={1500} height={10} />;
+            <Image src={bienvenida} fluid width={1500} height={10} />;
 
             <Navbar bg="dark" variant="dark" data-bs-theme="dark" expand="xl">
             <Container>

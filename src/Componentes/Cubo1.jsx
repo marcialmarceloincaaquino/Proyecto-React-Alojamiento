@@ -1,19 +1,19 @@
 import  { useEffect, useRef } from 'react';
 import * as THREE from 'three';
-import catavi from '/src/assets/imagenes/catavi.jpg';
+import siglo from  '/src/assets/imagenes/siglo xx.jpg';
 
-export function Model(){
-  const cubeRef = useRef(null);   
+export function Model1(){
+  const cubeRef1 = useRef(null);   
   useEffect(() => {
     const scene = new THREE.Scene();
     const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
     const renderer = new THREE.WebGLRenderer({});
     
     renderer.setSize(300, 300);
-    cubeRef.current.appendChild(renderer.domElement);
+    cubeRef1.current.appendChild(renderer.domElement);
     
     
-    const texture = new THREE.TextureLoader().load(catavi);
+    const texture = new THREE.TextureLoader().load(siglo);
 				texture.colorSpace = THREE.SRGBColorSpace;
     
     const geometry = new THREE.BoxGeometry(1,1,1);
@@ -40,7 +40,7 @@ export function Model(){
   
   return (
     
-        <div ref ={cubeRef}></div>
+        <div ref ={cubeRef1}></div>
    
 );
 }
