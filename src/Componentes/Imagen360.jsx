@@ -1,6 +1,6 @@
 import "https://aframe.io/releases/1.4.0/aframe.min.js";
 import  { useEffect, useRef } from 'react';
-import siglo from '/src/assets/imagenes/siglo xx.jpg';
+import siglo from '/src/assets/imagenes/banner1.jpg';
 
 export function Img360 (){
     const imagen360 = useRef(null);   

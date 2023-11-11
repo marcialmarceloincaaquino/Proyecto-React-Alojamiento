@@ -9,7 +9,7 @@ const Familiar = () => {
         <Container>
         <Row>
           <Col><Card style={{ width: '23rem' }} border="primary">
-      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Img variant="top" src="/src/assets/imagenes/puertaanimado.gif" />
       <Card.Body>
         <Card.Title>Pieza Nº 2</Card.Title>
         <Card.Text>
@@ -20,7 +20,7 @@ const Familiar = () => {
     </Card></Col>
 
           <Col><Col><Card style={{ width: '23rem' }} border="primary">
-      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Img variant="top" src="/src/assets/imagenes/puertaanimado.gif" />
       <Card.Body>
         <Card.Title>Pieza Nº 19</Card.Title>
         <Card.Text>
@@ -31,7 +31,7 @@ const Familiar = () => {
     </Card></Col></Col>
 
           <Col><Col><Card style={{ width: '23rem' }} border="primary">
-      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Img variant="top" src="/src/assets/imagenes/puertaanimado.gif" />
       <Card.Body>
         <Card.Title>Pieza Nº 20</Card.Title>
         <Card.Text>
