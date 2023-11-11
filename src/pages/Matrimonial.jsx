@@ -3,6 +3,8 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import puertaanimado from '/src/assets/imagenes/puertaanimado.gif';
+
 
 
 const Matrimonial = () => {
@@ -10,7 +12,7 @@ const Matrimonial = () => {
       <Container>
       <Row>
         <Col><Card style={{ width: '23rem' }} border="primary">
-    <Card.Img variant="top" src="/src/assets/imagenes/puertaanimado.gif" />
+    <Card.Img variant="top" src={puertaanimado} />
     <Card.Body>
       <Card.Title>Pieza Nº 1</Card.Title>
       <Card.Text>
@@ -21,7 +23,7 @@ const Matrimonial = () => {
   </Card></Col>
 
         <Col><Col><Card style={{ width: '23rem' }} border="primary">
-    <Card.Img variant="top" src="/src/assets/imagenes/puertaanimado.gif" />
+    <Card.Img variant="top" src={puertaanimado} />
     <Card.Body>
       <Card.Title>Pieza Nº 5</Card.Title>
       <Card.Text>
@@ -32,7 +34,7 @@ const Matrimonial = () => {
   </Card></Col></Col>
 
         <Col><Col><Card style={{ width: '23rem' }} border="primary">
-    <Card.Img variant="top" src="/src/assets/imagenes/puertaanimado.gif" />
+    <Card.Img variant="top" src={puertaanimado} />
     <Card.Body>
       <Card.Title>Pieza Nº 10</Card.Title>
       <Card.Text>
@@ -45,7 +47,7 @@ const Matrimonial = () => {
 
       <Row>
         <Col><Card style={{ width: '23rem' }} border="primary">
-    <Card.Img variant="top" src="/src/assets/imagenes/puertaanimado.gif" />
+    <Card.Img variant="top" src={puertaanimado} />
     <Card.Body>
       <Card.Title>Pieza Nº 21</Card.Title>
       <Card.Text>
@@ -56,7 +58,7 @@ const Matrimonial = () => {
   </Card></Col>
 
         <Col><Card style={{ width: '23rem' }} border="primary">
-    <Card.Img variant="top" src="/src/assets/imagenes/puertaanimado.gif" />
+    <Card.Img variant="top" src={puertaanimado} />
     <Card.Body>
       <Card.Title>Pieza Nº 22</Card.Title>
       <Card.Text>

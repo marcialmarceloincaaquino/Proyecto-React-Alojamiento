@@ -14,7 +14,7 @@ function Navegar () {
 
             <Navbar bg="dark" variant="dark" data-bs-theme="dark" expand="xl">
             <Container>
-            <Navbar.Brand href="About">Acerca de Nosotros</Navbar.Brand>
+            <Navbar.Brand href="#"><Link to="/about"> Acerca de Nosotros</Link></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
 
