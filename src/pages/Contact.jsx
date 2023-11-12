@@ -4,7 +4,10 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import { Img360 } from '../Componentes/Imagen360';
-import Iframe from 'react-iframe'
+import Iframe from 'react-iframe';
+import direcion from '/src/assets/imagenes/logodireccion.png';
+import logotelefono from '/src/assets/imagenes/telefonologo.png';
+import logoubicacion from '/src/assets/imagenes/telefonologo.png';
 
 
 
@@ -14,7 +17,7 @@ const Contact = () => {
       <Container>
     <div className="card-group">
   <div className="card">
-    <img src="/src/assets/imagenes/logodireccion.png" className="card-img-top" alt="..."/>
+    <img src={direcion} className="card-img-top" alt="..."/>
     <div className="card-body">
      
       <p className="card-text">Calle Sucre Nº 25 entre Ayacucho, detras de la Iglesia</p>
@@ -23,7 +26,7 @@ const Contact = () => {
   </div>
 
   <div className="card">
-    <img src="/src/assets/imagenes/telefonologo.png" className="card-img-top" alt="..."/>
+    <img src={logotelefono} className="card-img-top" alt="..."/>
     <div className="card-body">
       <h5 className="card-title">TELEFONOS DE REFERENCIA</h5>
       <p className="card-text">Cel: 68280327 - 74103806 - incaaquinolosandes@gmail.com</p>
@@ -33,7 +36,7 @@ const Contact = () => {
 </div>
 <div className="card-group">
   <div className="card" >
-    <img src="/src/assets/imagenes/logoubicacion.png" className="card-img-top img-fluid  max-width: 100% height: 10" />
+    <img src={logoubicacion} className="card-img-top img-fluid  max-width: 100% height: 10" />
     <div className="card-body">
       <hr />
       <h5 className="card-title">UBICACION ACTUAL</h5>

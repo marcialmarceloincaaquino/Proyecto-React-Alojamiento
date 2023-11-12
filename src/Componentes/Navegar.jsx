@@ -21,7 +21,7 @@ function Navegar () {
           <Nav className="me-auto" fill>
             <Nav.Link href="#"><Link to="/"> Principal</Link> </Nav.Link>
             <Nav.Link href="#"> <Link to="/contact"> Contactos</Link></Nav.Link>
-            <NavDropdown title="Revervar Habitacion" id="basic-nav-dropdown">
+            <NavDropdown title="Reservar Habitacion" id="basic-nav-dropdown">
               <NavDropdown.Item href="#"> <Link to="/simple"> Simple</Link></NavDropdown.Item>
               <NavDropdown.Item href="#"><Link to="/matrimonial"> Matrimonial</Link>
                 

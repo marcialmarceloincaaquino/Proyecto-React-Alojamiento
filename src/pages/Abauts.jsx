@@ -3,13 +3,19 @@ import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import mayorrdomo from '/src/assets/imagenes/mayordomo.gif';
+import alojamientooanimado from '/src/assets/imagenes/alojamientoAnimado.gif';
+import museoopatiño from '/src/assets/imagenes/museopatiño.png';
+import teatrosD from '/src/assets/imagenes/teatro.png';
+
+
 
 const Abauts = () => {
     return (
           <Container>
-            <Row><Col><img src="/src/assets/imagenes/mayordomo.gif" alt="" /></Col>
+            <Row><Col><img src={mayorrdomo} alt="" /></Col>
             <Col>
-                <img src="/src/assets/imagenes/alojamientoAnimado.gif" alt="" width={200}/>
+                <img src={alojamientooanimado} alt="" width={200}/>
             </Col>
             
             
@@ -35,7 +41,7 @@ const Abauts = () => {
     <div className="card">
       <div className="card-body">
         <h5 className="card-title">MUSEO DE PATIÑO - UNCIA</h5>
-        <img src="/src/assets/imagenes/museopatiño.JPG" alt="" />
+        <img src={museoopatiño} alt="" />
       </div>
     </div>
   </div>
@@ -43,7 +49,7 @@ const Abauts = () => {
     <div className="card">
       <div className="card-body">
         <h5 className="card-title">TEATRO SIMON I PATIÑO - CATAVI</h5>
-        <img src="/src/assets/imagenes/teatro.jpeg" alt="" />
+        <img src={teatrosD} alt="" />
       </div>
     </div>
   </div>
